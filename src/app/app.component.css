@@ -1,0 +1,4 @@
+app-main{
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}

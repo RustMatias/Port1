@@ -1,0 +1,46 @@
+
+.service h3{
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 0.5rem;
+}
+
+
+.service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0.5rem 1rem;
+    border-radius: 10px;
+    background-color: #2e2e2e;
+    max-width: 1fr;
+    padding: 0.5rem 0.2rem;
+}
+.description{
+    text-align: center;
+    color: #b8b8b8;
+    transition: 1s;
+    font-size: 12px;
+}
+
+.level{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.container-level{
+    width: 80%;
+    height: 5px;
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+}
+
+.progres-level{
+    width: 100%;
+    height: 100%;
+}

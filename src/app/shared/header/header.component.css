@@ -1,0 +1,35 @@
+header{
+    z-index: 1;
+    background-color: #202020; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    color:#ffffff;
+    position: fixed;
+    scroll-behavior: auto;
+}
+
+h1{
+    margin-left: 1rem;
+    color: #a600ff;
+}
+
+
+ul{
+    margin-right: 0.5rem;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+a{
+    text-decoration:none;
+    color: #ffffff;
+}
+
+li{
+    margin: 0rem 0.5rem;
+}

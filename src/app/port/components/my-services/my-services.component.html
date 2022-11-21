@@ -1,0 +1,34 @@
+<article id="services">
+    <p 
+    
+    class="article-name">
+        My
+        <span>services</span>
+    </p>
+    <h2>
+        What I Do
+    </h2>
+    <section class="services-container">
+
+
+        <app-item-service
+        *ngFor="let service of myServices"
+        [service]="service"
+        ></app-item-service>
+        <!-- <div 
+        class="service"
+        *ngFor="let service of myServices"
+        >
+            <div [innerHTML]="service.svg">
+
+            </div>
+            <h3 [style.color]="service.color">{{service.title}}</h3>
+            <p>{{service.description}}</p>
+        </div> -->
+
+
+    </section>
+
+
+
+</article>
